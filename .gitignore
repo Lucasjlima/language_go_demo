@@ -1,3 +1,49 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+*.cert
+*.crt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Dependency directories
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Build outputs
+dist/
+build/
 build/bin
-node_modules
 frontend/dist
+*.egg-info/
+
+# Coverage and testing
+coverage/
+.coverage
+.pytest_cache/
+
+# Secrets and credentials
+secrets.*
+credentials.*

@@ -4,8 +4,9 @@
 
 
 html {
-    background-color: rgba(27, 38, 54, 1);
-    text-align: center;
+    background:
+        radial-gradient(circle at top, rgba(14, 165, 233, 0.25), transparent 32%),
+        linear-gradient(180deg, #020617 0%, #0f172a 100%);
     color: white;
 }
 
@@ -25,7 +26,10 @@ body {
     url("assets/fonts/nunito-v16-latin-regular.woff2") format("woff2");
 }
 
+* {
+    box-sizing: border-box;
+}
+
 #app {
-    height: 100vh;
-    text-align: center;
+    min-height: 100vh;
 }
